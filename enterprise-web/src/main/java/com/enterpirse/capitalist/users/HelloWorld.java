@@ -27,9 +27,9 @@ public class HelloWorld {
 		return "index";
 	}
 	
-	@RequestMapping("/UserForm")
+	@RequestMapping("/login")
 	public String DisplayUserForm(){
-		return "UserForm";
+		return "login";
 	}
 }
 
